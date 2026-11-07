@@ -1,0 +1,129 @@
+{
+  "title": "Raccolta feedback clienti",
+  "description": "Prototipo per raccogliere, consultare e filtrare valutazioni a stelle e commenti dei clienti.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Panoramica dei feedback raccolti e delle valutazioni recenti.",
+      "metrics": [
+        {
+          "label": "Feedback raccolti",
+          "value": "128"
+        },
+        {
+          "label": "Valutazione media",
+          "value": "4,6 / 5"
+        },
+        {
+          "label": "Feedback da leggere",
+          "value": "12"
+        }
+      ],
+      "columns": [
+        "Cliente",
+        "Valutazione",
+        "Commento",
+        "Data",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "5",
+          "Esperienza semplice e piacevole.",
+          "12/06/2025",
+          "Nuovo"
+        ],
+        [
+          "Vela",
+          "4",
+          "Servizio curato, con piccoli margini di miglioramento.",
+          "11/06/2025",
+          "In lettura"
+        ],
+        [
+          "Nubi",
+          "5",
+          "Tutto chiaro e rapido.",
+          "10/06/2025",
+          "Archiviato"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "feedback",
+      "title": "Feedback",
+      "description": "Consulta e filtra i feedback per cliente, valutazione, data e stato.",
+      "metrics": [],
+      "columns": [
+        "Cliente",
+        "Valutazione",
+        "Commento",
+        "Data",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "5",
+          "Esperienza semplice e piacevole.",
+          "12/06/2025",
+          "Nuovo"
+        ],
+        [
+          "Vela",
+          "4",
+          "Servizio curato, con piccoli margini di miglioramento.",
+          "11/06/2025",
+          "In lettura"
+        ],
+        [
+          "Nubi",
+          "5",
+          "Tutto chiaro e rapido.",
+          "10/06/2025",
+          "Archiviato"
+        ],
+        [
+          "Mira",
+          "3",
+          "Attesa un po' lunga, ma esito soddisfacente.",
+          "09/06/2025",
+          "Nuovo"
+        ],
+        [
+          "Timo",
+          "2",
+          "Alcune indicazioni non erano abbastanza chiare.",
+          "08/06/2025",
+          "In lettura"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuovo-feedback",
+      "title": "Nuovo feedback",
+      "description": "Registra una valutazione a stelle e un commento; i dati possono essere modificati prima del salvataggio.",
+      "metrics": [],
+      "columns": [
+        "Cliente",
+        "Valutazione",
+        "Commento",
+        "Data",
+        "Stato"
+      ],
+      "rows": [],
+      "form": [
+        "Cliente",
+        "Valutazione",
+        "Commento",
+        "Data",
+        "Stato"
+      ]
+    }
+  ]
+}
